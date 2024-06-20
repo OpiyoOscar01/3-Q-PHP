@@ -1,0 +1,6 @@
+Hello World!
+Have you ever wondered how websites build their system of file uploading in PHP? Here we will come to know about the file uploading process. A question which you can come up with – ‘Are we able to upload any kind of file with this system?’. The answer is yes, we can upload files with different types of extensions.
+
+Approach: To run the PHP script we need a server. So make sure you have the XAMPP server or WAMP server installed on your windows machine.
+
+HTML code snippet: Below is the HTML source code for the HTML form for uploading the file to the server. In the HTML <form> tag, we are using “enctype=’multipart/form-data” which is an encoding type that allows files to be sent through a POST method. Without this encoding, the files cannot be sent through the POST method. We must use this enctype if you want to allow users to upload a file through a form.
